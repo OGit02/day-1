@@ -1,13 +1,314 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+   
+
 }
 
-.nav{
-    text-align: center;
-    justify-items: center;
-    text-align: center;
-    background-color: yellow;
+.Desktop{
+    background-color:#ffffff;
+    position: relative;
+    width: 1440px;
+    height: 1088px;
+
+}
+
+.Frame11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1140px;
+    height: 37px;
+    left: 150px;
+    top: 58px   ;
+}
+
+.Frame343 {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    width: 199px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame {
+    width: 24px;
+    height: 24px;
+
+    
+
+}
+.Holadok {
+    width: 67px;
+    height: 23px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #101c45;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+ 
+
+}
+
+.Frame6{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 646px;
+    height: 20px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+    
+
+}
+.home {
+    width: 41px;
+    height: 20px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #101C45;
+}
+ 
+.Frame344{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 295px;
+    height: 37px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    width: 81px;
+    height: 37px;
+
+    border-radius: 6px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.log {
+    width: 41px;
+    height: 21px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #101C45;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.frame4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    width: 117px;
+    height: 37px;
+
+    border: 1px solid #101c45;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.book {
+    width: 77px;
+    height: 21px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #101C45;
+
+    flex: none;
+    order: 0    ;
+    flex-grow: 0;
+}
+
+.group1{
+
+position: absolute;
+width: 590px;
+height: 847px;
+left: 814px;
+top: 18px;
+
+}
+.Rectangle1{
+ 
+  width: 590px;
+  height: 847px;
+  left: 764px;
+  top: 18px;
+}
+
+.group2{
+
+width: 457px;
+height: 391px;
+left: 150px;
+top: 246px;
+}
+
+.frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 457px;
+    height: 391px;
+    left: 150px;
+    top: 246px;
+}
+.txt1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62.5px;
+
+    color: #101C45;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.txt2{
+    top: 182px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #101C45;
+}
+
+.frame2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 35px;
+
+    gap: 8px;
+
+    width: 235px;
+    height: 60px;
+
+    background: #203271;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.rectangle2{
+    width: 457px;
+    height: 15px;
+}
+
+.rectangle3 {
+    width: 457px;
+    height: 40px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.txt3{
+    width: 165px;
+    height: 30px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.group3{
+    position: relative;
+    width: 1221px;
+    height: 191px;
+    left: 150px;
+    top: 865px;
+}
+
+.group4 {
+    position: absolute;
+    width: 292px;
+    height: 182px;
+    left: 663px;
+    top: 218px;
+    
     
 }

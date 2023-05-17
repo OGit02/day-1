@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    text-align: center;
+    justify-items: center;
+    text-align: center;
+    background-color: yellow;
+    
+}
